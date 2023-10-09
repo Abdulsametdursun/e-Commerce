@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-Commerce</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header side -->
+    <header>
+      <h1>E-Commerce</h1>
+      <input type="text" placeholder="Enter item name" />
+      <div>
+        <button id="cart-btn">Cart</button>
+        <button>Log In</button>
+        <button>Create new account</button>
+      </div>
+    </header>
+
+    <!-- Main side -->
+    <main>
+      <!-- categories-->
+      <section id="category-sec">
+        <h1>Categories</h1>
+
+        <div class="categories">
+          <!-- category -->
+          <!-- <div class="category">
+            <img src="https://picsum.photos/640/640?r=719" />
+            <h1>Food</h1>
+          </div> -->
+        </div>
+      </section>
+
+      <!-- items-->
+      <section id="product-sec">
+        <h1>Items</h1>
+
+        <div class="products">
+          <!-- Cart -->
+          <!-- <div class="cart">
+            <img src="https://picsum.photos/640/640?r=663">
+            <h4>Practical Soft Cheese</h4>
+            <h4>electronic</h4>
+            <div class="info">
+              <span>$500</span>
+              <button>Add to cart</button>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </main>
+    <!-- cart modal -->
+    <div class="modal-wrapper">
+      <div class="modal">
+        <!-- close icon -->
+        <div id="btn-wrapper">
+          <img id="close-btn" src="/images/e-close.png" />
+        </div>
+        <!-- cart items -->
+        <div class="list"></div>
+        <!-- total section -->
+        <div class="total">
+          <span id="count">0 items</span>
+          toplam:
+          <span id="price"> $0</span>
+        </div>
+      </div>
+    </div>
+
+    <!--javascript link-->
+    <script src="main.js"></script>
+
+    <!--<script src="test.js"></script>-->
+  </body>
+</html>
